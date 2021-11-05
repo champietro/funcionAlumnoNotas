@@ -37,18 +37,17 @@ let funcion = function () {
 
     nota = prompt("Nota de Biologia:");
     arregloNotasBiologia[i] = nota;
-
-    let posicion: Number = Number(prompt("Posición:"));
-    console.log(
-      "Las notas del alumno: " +
-        arregloNombres[posicion] +
-        "son:  matemática: " +
-        arregloNotasMatematica[posicion] +
-        ", física: " +
-        arregloNotasFisica[posicion] +
-        ", biología: " +
-        arregloNotasBiologia[posicion]
-    );
   }
+  let posicion: Number = Number(prompt("Posición:"));
+  console.log(
+    "Las notas del alumno: " +
+      arregloNombres[posicion] +
+      "son:  matemática: " +
+      arregloNotasMatematica[posicion] +
+      ", física: " +
+      arregloNotasFisica[posicion] +
+      ", biología: " +
+      arregloNotasBiologia[posicion]
+  );
 };
 funcion();
