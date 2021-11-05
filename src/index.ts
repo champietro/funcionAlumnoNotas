@@ -19,32 +19,36 @@ Luego, el usuario puede consultar por los valores en una posición,
 */
 
 let funcion = function () {
-  let nombre,nota:string
+  let nombre, nota: string;
   let arregloNombres: string[] = new Array(2);
   let arregloNotasMatematica: string[] = new Array(2);
   let arregloNotasFisica: string[] = new Array(2);
   let arregloNotasBiologia: string[] = new Array(2);
 
-  for(let i=0; i<5; i++){
+  for (let i = 0; i < 5; i++) {
     //nombre =prompt("Nombre:");
-    arregloNombres[i]= nombre;
+    arregloNombres[i] = nombre;
 
     //nota =prompt("Nota de Matemática:");
-    arregloNotasMatematica[i]= nota;
+    arregloNotasMatematica[i] = nota;
 
     //nota =prompt("Nota de Fisica:");
-    arregloNotasFisica[i]= nota;
+    arregloNotasFisica[i] = nota;
 
     //nota =prompt("Nota de Biologia:");
-    arregloNotasBiologia[i]= nota;
-
+    arregloNotasBiologia[i] = nota;
 
     let posicion: Number = Number(prompt("Posición:"));
-    console.log("Las notas del alumno: +"arregloNombres[posicion]+ "son:  matemática: "+arregloNotasMatematica[posicion]+", física: "+arregloNotasFisica[posicion]+", biología: "+ arregloNotasBiologia[posicion]);
-    console.log()
-    console.log()
-    console.log()
-
+    console.log(
+      "Las notas del alumno: " +
+        arregloNombres[posicion] +
+        "son:  matemática: " +
+        arregloNotasMatematica[posicion] +
+        ", física: " +
+        arregloNotasFisica[posicion] +
+        ", biología: " +
+        arregloNotasBiologia[posicion]
+    );
   }
 };
 funcion();
