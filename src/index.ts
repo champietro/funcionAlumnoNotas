@@ -25,7 +25,7 @@ let funcion = function () {
   let arregloNotasFisica: string[] = new Array(2);
   let arregloNotasBiologia: string[] = new Array(2);
 
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 2; i++) {
     nombre = prompt("Nombre:");
     arregloNombres[i] = nombre;
 
