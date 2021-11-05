@@ -26,16 +26,16 @@ let funcion = function () {
   let arregloNotasBiologia: string[] = new Array(2);
 
   for (let i = 0; i < 5; i++) {
-    //nombre =prompt("Nombre:");
+    nombre = prompt("Nombre:");
     arregloNombres[i] = nombre;
 
-    //nota =prompt("Nota de Matemática:");
+    nota = prompt("Nota de Matemática:");
     arregloNotasMatematica[i] = nota;
 
-    //nota =prompt("Nota de Fisica:");
+    nota = prompt("Nota de Fisica:");
     arregloNotasFisica[i] = nota;
 
-    //nota =prompt("Nota de Biologia:");
+    nota = prompt("Nota de Biologia:");
     arregloNotasBiologia[i] = nota;
 
     let posicion: Number = Number(prompt("Posición:"));
